@@ -34,4 +34,4 @@ I also learned how to create various types of CSS such as reset.css, style.css, 
 
 ### Links
 
-- Solution URL: [Social links profile solution]()
+- Solution URL: [Social links profile solution](https://fctexi.github.io/Social-links-profile/)

@@ -1,0 +1,78 @@
+html {
+    font-size: 62.5%;
+    /* 1.6rem = 16px */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--off-black);
+    color: var(--white);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: var(--dark-grey);
+}
+
+.card .imagem-avatar {
+    width: 28%;
+    border-radius: 50%;
+}
+
+.card h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    padding-top: 10px;
+}
+
+.card p {
+    font-size: 1.35rem;
+    font-weight: 300;
+    padding-top: 25px;
+}
+
+.card .links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    width: 100%;
+}
+
+.card .links .btn-profile {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--white);
+    padding-block: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: var(--grey);
+    transition: 0.5s ease;
+}
+
+.card .links .btn-profile:last-child {
+    margin-bottom: 0px;
+}
+
+.card .links .btn-profile:hover {
+    background-color: var(--primary-color);
+    color: var(--grey);
+}
